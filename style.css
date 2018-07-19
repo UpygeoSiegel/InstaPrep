@@ -1,0 +1,44 @@
+.header{
+  height: 100vh;
+  background-image: url('https://image.freepik.com/free-vector/instagram-background-in-gradient-colors_23-2147821882.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+.header-text {
+  color: white;
+  font-size: 400%;
+  text-align: center;
+  padding-top: 6%
+}
+
+
+.card{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 5px 10px rgba(0,0,0,.2)
+}
+
+#goBackUser{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  background: white;
+  box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+  border-radius: 30%;
+  padding: 10px 20px;
+  font-size: 20px
+}
+
+#goForwardUser{
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  background: white;
+  box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+  border-radius: 30%;
+  padding: 10px 20px;
+  font-size: 20px
+}
